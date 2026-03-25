@@ -3,7 +3,7 @@ using RentalApp.Repositories;
 using RentalApp.Services;
 // kom branch2
 var rentalRepo = new InMemoryRepository<Rental>();
-
+// branch test
 var rentalService = new RentalService(rentalRepo);
 var penaltyCalculator = new PenaltyCalculator();
 
