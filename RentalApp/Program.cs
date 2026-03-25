@@ -7,7 +7,7 @@ var rentalRepo = new InMemoryRepository<Rental>();
 var rentalService = new RentalService(rentalRepo);
 var penaltyCalculator = new PenaltyCalculator();
 //branch test2
-
+//branch test3
 var student = new Student("Jan", "Kowalski");
 var employee = new Employee("Anna", "Nowak");
 
