@@ -1,7 +1,7 @@
 ﻿using RentalApp.Domain;
 using RentalApp.Repositories;
 using RentalApp.Services;
-
+// kom branch2
 var rentalRepo = new InMemoryRepository<Rental>();
 
 var rentalService = new RentalService(rentalRepo);
