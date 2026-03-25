@@ -6,7 +6,7 @@ var rentalRepo = new InMemoryRepository<Rental>();
 // branch test
 var rentalService = new RentalService(rentalRepo);
 var penaltyCalculator = new PenaltyCalculator();
-
+//branch test2
 
 var student = new Student("Jan", "Kowalski");
 var employee = new Employee("Anna", "Nowak");
